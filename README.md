@@ -6,9 +6,10 @@ Wanted try this app, "install SAMIT V1.apk", and run it.
 This apps require allowing all "security requirements for Android"
 The user will be displayed first with the SAMIT application identification interface.
 After that, the user can select the user category.
-The user can sign up as a staff member, and they can also sign in
+The user can sign up as a staff member, and they can also sign in.
 
-https://github.com/NERO1412/ICTPCSSYSamit/blob/master/GIF-200616_143332.gif
+![GitHub Logo](/images//blob/master/GIF-200616_143332.gif)
+Format: ![Alt Text](https://github.com/NERO1412/ICTPCSSYSamit/blob/master/GIF-200616_143332.gif)
 
 ~As an admin, the user will be shown the admin menu interface
 In the admin menu, there are 4 activities, the "Complaint Report" - to view the complaint report,
