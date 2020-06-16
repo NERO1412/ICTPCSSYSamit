@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">SAMIT</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">SAMIT</string>
+    <string name="slide_1_desc">The easiest way to manage your organization activity!</string>
+
+    <string name="slide_2_title">STAFF</string>
+    <string name="slide_2_desc">Staff are able to create, view and search their complaints other than view complaint log.</string>
+
+    <string name="slide_3_title">ADMIN</string>
+    <string name="slide_3_desc">Admin can view monthly complaint report activity, register user (IT Technician and Staff) into the system, and view Staffs Complaint.</string>
+
+    <string name="slide_4_title">IT TECHNICIAN</string>
+    <string name="slide_4_desc">IT Technican can manage ICT inventory, respond to staff complaint, and enter monthly complaint by day.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="hello_blank_fragment">This is the main fragment</string>
+
+    <array name="menuOptions">
+        <item>Home</item>
+        <item>Personal</item>
+        <item>High scores</item>
+        <item>Settings</item>
+        <item>About</item>
+    </array>
+    <array name="Priority">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Rekod Aduan</string>
+    <string name="menu_slideshow">Notifikasi</string>
+    <string name="menu_tools">Rekod Inventori</string>
+    <string name="menu_share">Pengurusan Aduan</string>
+    <string name="menu_send">Menjana Laporan</string>
+    <string name="update">UPDATE</string>
+
+    <string-array name="Month">
+        <item>JANUARY</item>
+        <item>FEBRUARY</item>
+        <item>MARCH</item>
+        <item>APRIL</item>
+        <item>MAY</item>
+        <item>JUNE</item>
+        <item>JULY</item>
+        <item>AUGUST</item>
+        <item>SEPTEMBER</item>
+        <item>OCTOBER</item>
+        <item>NOVEMBER</item>
+        <item>DECEMBER</item>
+
+
+    </string-array>
+
+    <string-array name="StatusComplaint">
+        <item>Status Complaint*</item>
+        <item>Pending</item>
+        <item>In Progress</item>
+        <item>Complete</item>
+        <item>Cannot Be Done</item>
+    </string-array>
+
+    <string-array name="ItemType">
+        <item>Item Type*</item>
+        <item>Hardware</item>
+        <item>Software</item>
+    </string-array>
+
+    <string-array name="Model">
+        <item>Model*</item>
+        <item>Acer</item>
+        <item>Adobe</item>
+        <item>Asus</item>
+        <item>Dell</item>
+        <item>Funtech</item>
+        <item>Google</item>
+        <item>Microsoft</item>
+        <item>MSI</item>
+        <item>Wondershare</item>
+        <item>Others Model (Not Listed)</item>
+    </string-array>
+
+    <string-array name="Department">
+        <item>Used in Department*</item>
+        <item>None/New Product</item>
+        <item>Admin</item>
+        <item>Engineering</item>
+        <item>Human Resource</item>
+        <item>IT</item>
+        <item>Maintenance</item>
+        <item>Pilot</item>
+        <item>Quality Assurance</item>
+        <item>Safe and Quality</item>
+    </string-array>
+
+    <string-array name="Problems">
+        <item>Common ICT Problem***</item>
+        <item>Unable to print.</item>
+        <item>Telephone problem</item>
+        <item>Cannot connect to the internet.</item>
+        <item>The computer mouse is unresponsive.</item>
+        <item>The computer Screen became Blue Screen aka BSOD</item>
+        <item>The computer monitor will not work when the computer is turned on.</item>
+    </string-array>
+
+    <string name="title">Convert Using i-Text library</string>
+    <string name="convert_text_title">Convert Text to PDF</string>
+    <string name="convert_text_label">Path to your text file:</string>
+    <string name="convert_text_button_convert">Convert Text</string>
+    <string name="convert_image_title">Convert Image to PDF</string>
+    <string name="convert_image_label">Path to your image file:</string>
+    <string name="convert_image_button_convert">Convert image</string>
+    <string name="dst_folder" />
+    <string name="FormTitle"><u>ICT COMPLAINT FORM</u></string>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/awbackg"
+    tools:context=".frontPage">
+
+    <TextView
+        android:id="@+id/textViewFP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="SISTEM ADUAN MASALAH IT"
+        android:textAlignment="center"
+        android:textColor="#031BF4"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <Button
+        android:id="@+id/itTechBtn"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif-condensed"
+        android:text="IT TECHNICIAN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stafBtn"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <Button
+        android:id="@+id/stafBtn"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif-condensed"
+        android:text="STAFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/admBtn"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <Button
+        android:id="@+id/admBtn"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif-condensed"
+        android:text="ADMIN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="189dp"
+        android:layout_height="56dp"
+        android:text="SAMIT adalah aplikasi berkaitan pengurusan sistem IT dalam syarikat."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254"
+        app:srcCompat="@mipmap/samit_launcher_round" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

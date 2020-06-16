@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BarChartActivity">
+
+    <EditText
+        android:id="@+id/x_Value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="X-Value"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textSize="24dp"/>
+
+    <EditText
+        android:id="@+id/y_Value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/x_Value"
+        android:layout_alignStart="@+id/x_Value"
+        android:layout_below="@+id/x_Value"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="Y-Value"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/y_Value"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="Insert"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graphView"
+        android:layout_below="@+id/btn_insert"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        />
+
+</RelativeLayout>

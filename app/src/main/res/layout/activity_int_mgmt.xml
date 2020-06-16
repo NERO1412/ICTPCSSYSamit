@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".InventoryMgmtActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:text="\nICT ITEM DETAIL\n(FIRESTORE DATABASE)\n\n"
+        android:textAlignment="center"
+        android:textColor="#FF0090"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn_scan"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="GENERATE NEW ID WITH QR CODE" />
+
+    <EditText
+        android:id="@+id/idItemEt"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="Item ID* (Used to SEARCH, *CANNOT BE UPDATE)"
+        android:minHeight="44dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinnertype"
+        android:minHeight="44dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinnermodel"
+        android:minHeight="44dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/snItemEt"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="S/N**"
+        android:minHeight="44dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinnerdpmt"
+        android:minHeight="44dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/usedByEt"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="textMultiLine|textCapSentences"
+        android:hint="Used By*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="44dp"
+        android:gravity="start"/>
+
+    <Button
+        android:id="@+id/saveBtn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/listBtn"
+        android:text="Show List"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

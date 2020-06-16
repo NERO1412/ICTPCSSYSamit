@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Month2Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/bg_screen3"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/msg2as2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="MONTHLY COMPLAINT RECORD"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FFEB3B"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.547"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:columnCount="3"
+            android:columnOrderPreserved="false"
+            android:padding="14dp"
+            android:rowCount="4">
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/january"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="11dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/january"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/february"
+
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="11dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/february"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 3 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/march"
+
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="11dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/march"/>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Row 1 -->
+
+            <!-- Column 4 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/april"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="11dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/april" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/may"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="11dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/may" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- Row 2 Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/june"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="11dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/june"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/july"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="11dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/july"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/august"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="11dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/august"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/september"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="11dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/september"/>
+
+            </androidx.cardview.widget.CardView>
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/october"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="11dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/october"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/november"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="11dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/november"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Row 2 Column 4 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/december"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="11dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/december"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

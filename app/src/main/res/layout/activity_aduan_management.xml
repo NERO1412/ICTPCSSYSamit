@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AduanManagementActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FormTitle"
+        android:textAlignment="center"
+        android:textColor="@color/bg_screen3"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/firebasename2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:text="Status:"
+        android:textColor="#DA0808"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="#DA0808"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/aduanTitle"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="Aduan Title(Exp. ACERK501)#UsedToSearch"
+        android:minHeight="44dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:minHeight="44dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerStatus"
+        android:minHeight="44dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/aduanDesc"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="Aduan Description(Exp. Screen Line)"
+        android:minHeight="44dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinnerPrior"
+        android:minHeight="44dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/aduanUsrName"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="textMultiLine|textCapSentences"
+        android:hint="Complaint By*(Staff Name)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="44dp"
+        android:gravity="start"/>
+
+    <EditText
+        android:id="@+id/remarkIT"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="textMultiLine|textCapSentences"
+        android:hint="Remark By IT Technician*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="44dp"
+        android:gravity="start"/>
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:text="Save"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
