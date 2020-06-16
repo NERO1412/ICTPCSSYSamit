@@ -1,5 +1,5 @@
 # ICTPCSSYSamit, must rename this folder to "SYSamit2" after you clone it.
-Android applivation development 
+Android application development
 
 This apps is about the management activity in an organization. Mainly purpose is to manage staff complain.
 Wanted try this app, "install SAMIT V1.apk", and run it.
@@ -30,3 +30,5 @@ text input 'Textbox' provided, "Copy New Item ID" - to copy the text contained i
 to scan existing QR code.
 
 After completing the activity, the user can press the top right icon (Log Out) to sign out from this SAMIT system.
+
+Need anything? just email me at lbird1412@gmail.com
