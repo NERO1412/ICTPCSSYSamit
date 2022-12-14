@@ -33,5 +33,3 @@ text input 'Textbox' provided, "Copy New Item ID" - to copy the text contained i
 to scan existing QR code.
 
 After completing the activity, the user can press the top right icon (Log Out) to sign out from this SAMIT system.
-
-Need anything? just email me at lbird1412@gmail.com
