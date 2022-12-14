@@ -1,4 +1,3 @@
-# ICTPCSSYSamit, must rename this folder to "SYSamit2" after you clone it.
 Android application development
 
 <img src="https://github.com/NERO1412/ICTPCSSYSamit/blob/master/logo.png" width="150" title="hover text">
@@ -36,3 +35,5 @@ text input 'Textbox' provided, "Copy New Item ID" - to copy the text contained i
 to scan existing QR code.
 
 After completing the activity, the user can press the top right icon (Log Out) to sign out from this SAMIT system.
+
+# ICTPCSSYSamit, must rename this folder to "SYSamit2" after you clone it.
