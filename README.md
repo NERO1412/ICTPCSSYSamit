@@ -1,6 +1,8 @@
 # ICTPCSSYSamit, must rename this folder to "SYSamit2" after you clone it.
 Android application development
+
 <img src="https://github.com/NERO1412/ICTPCSSYSamit/blob/master/logo.png" width="150" title="hover text">
+
 This apps is about the management activity in an organization. Mainly purpose is to manage staff complain.
 Wanted try this app, "install SAMIT V1.apk", and run it.
 This apps require allowing all "security requirements for Android"
