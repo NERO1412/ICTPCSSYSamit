@@ -8,6 +8,7 @@ The user will be displayed first with the SAMIT application identification inter
 After that, the user can select the user category.
 The user can sign up as a staff member, and they can also sign in.
 
+<img src="https://github.com/NERO1412/ICTPCSSYSamit/blob/master/logo.png" width="150" title="hover text">
 ![SAMIT INTRO](/master/logo.png)
 Preview: ![Alt Text](https://github.com/NERO1412/ICTPCSSYSamit/blob/master/GIF-200616_143332.gif)
 
